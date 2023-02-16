@@ -2,7 +2,7 @@
 /**
  * main - programming bettty
  *
- * Return : 0 (okay go)
+ * Return : 0 (success)
  */
 int main(void)
 {
