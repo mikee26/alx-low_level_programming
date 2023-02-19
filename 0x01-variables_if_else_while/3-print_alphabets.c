@@ -8,13 +8,11 @@
 int main(void)
 {
 	char l;
+	char u;
 
+	for (u = 65; u < 91; u++)
+		putchar(u);
 	for (l = 97; l < 123; l++)
-	{
-		for (l = 65; l < 91; l++)
-		{
-			putchar(l);
-		}
 		putchar(l);
 		return (0);
 	}
