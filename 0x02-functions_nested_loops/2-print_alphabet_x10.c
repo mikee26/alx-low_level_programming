@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - printing 10x the alpha bet'
+ * print_alphabet_x10 - printing 10x the alpha bet
  *
  * Return: 0 (success)
  */
