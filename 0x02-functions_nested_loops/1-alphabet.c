@@ -4,14 +4,12 @@
  *
  * Return: 0
  */
-int main()
-{
-	void print_alphabet(void);
+
+void print_alphabet(void);
 {
 	char l;
-
+	
 	for (l = 97; l < 123; l++)
 		_putchar(l);
-	putchar('\n');
-}
-}
+	
+	_putchar('\n');
