@@ -1,4 +1,4 @@
-#include "main.h"
+#include "stdio.h"
 
 /**
  * main - to print letters in lower case followed by new line
@@ -6,12 +6,16 @@
  * Return: 0
  */
 
-void print_alphabet(void);
+int main()
 {
-	char l;
-	
-	for (l = 97; l < 123; l++)
-		_putchar(l);
-	
-	_putchar('\n');
+    void print_alphabet(void);
+    {
+        char l;
+
+        for (l = 97; l < 123; l++)
+                _putchar(l);
+
+        _putchar('\n');
 }
+}
+
