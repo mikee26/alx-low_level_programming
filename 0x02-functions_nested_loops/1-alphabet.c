@@ -6,16 +6,11 @@
  * Return: 0
  */
 
-int main()
+void print_alphabet(void)
 {
-    void print_alphabet(void);
-    {
-        char l;
+	char letter;
 
-        for (l = 97; l < 123; l++)
-                _putchar(l);
-
-        _putchar('\n');
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+	_putchar('\n');
 }
-}
-
