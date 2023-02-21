@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - to print letters in lower case followed by new line
  *
@@ -13,3 +14,4 @@ void print_alphabet(void);
 		_putchar(l);
 	
 	_putchar('\n');
+}
