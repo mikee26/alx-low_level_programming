@@ -11,7 +11,6 @@ int print_to_98(int i)
 		while (i <= 98)
 		{
 			printf("%d", i);
-			printf(", ");
 			i++;
 		}
 	}
@@ -20,9 +19,9 @@ int print_to_98(int i)
 		while (i >= 98)
 		{
 			printf("%d", i);
-			printf(", ");
 			i--;
 		}
 	}
+	printf(", ");
 	return (0);
 }
