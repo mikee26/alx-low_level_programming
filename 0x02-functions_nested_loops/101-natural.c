@@ -2,18 +2,19 @@
 /**
  * main - computes multple of 5 and 3 and print sum
  *
- * Retur: sum of multiples
+ * Return: sum of multiples
  */
 int main(void)
 {
-	int i, z = 0;
+	int sum = 0, num;
 
-	while (i < 1024)
+	for (num = 0; num < 1024; num++)
 	{
-		if ((i % 3 == 0) || (i % 5 == 0))
-			z += i;
+		if (num % 5 == 0 || num % 3 == 0)
+		{
+			sum += num;
+		}
 	}
-	i++;
-	printf("%d\n", z);
+	printf("%d", sum);
 	return (0);
 }
