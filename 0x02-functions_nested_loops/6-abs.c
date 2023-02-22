@@ -7,7 +7,6 @@
  */
 int _abs(int i)
 {
-	int i;
 
 	_putchar(i);
 }
