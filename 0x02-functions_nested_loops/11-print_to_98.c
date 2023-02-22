@@ -8,5 +8,6 @@ int print_to_98(int i)
 {
 	for ( ; i < 99; i++)
 		printf("%d", i);
+	printf(',')
 	return (0);
 }
