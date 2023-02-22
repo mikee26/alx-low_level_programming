@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stidio.h>
 /**
  * main - computes multple of 5 and 3 and print sum
  *
@@ -10,7 +10,7 @@ int main(void)
 
 	for (n = 0; n < 1024; n++)
 	{
-		if (n % 5 && n % 3 == 0)
+		if (n % 5 || n % 3 == 0)
 		{
 			s += n;
 		}
