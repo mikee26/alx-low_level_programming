@@ -10,12 +10,12 @@ int main(void)
 
 	for (n = 0; n < 1024; n++)
 	{
-		if (n % 5 || n % 3 == 0)
+		if (n % 5 && n % 3 == 0)
 		{
 			s += n;
 		}
 	}
-	printf("%d", s);
+	printf("%d\n", s);
 	return (0);
 }
 
