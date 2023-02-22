@@ -10,14 +10,14 @@ int print_to_98(int i)
 	{
 		for ( ; i < 99; i++)
 		{
-			printf("%d ,", i);
+			printf("%d, ", i);
 		}
 	}
 	else
 	{
 		for ( ; i >= 98; i--)
 		{
-			printf("%d ,", i);
+			printf("%d, ", i);
 		}
 	}
 	return (0);
