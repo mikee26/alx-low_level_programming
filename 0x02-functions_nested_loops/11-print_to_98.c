@@ -30,5 +30,6 @@ int print_to_98(int i)
 			}
 		}
 	}
+	printf("\n");
 	return (0);
 }
