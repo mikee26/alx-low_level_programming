@@ -6,16 +6,14 @@
  */
 int main(void)
 {
-	int s = 0, n;
+	int z = 0, i;
 
-	for (n = 0; n < 1024; n++)
+	while (i < 1024)
 	{
-		if ((n % 5) ||( n % 3 == 0))
-		{
-			s += n;
-		}
+		if ((i % 3 == 0) || (i % 5 == 0))
+			z += i;
 	}
-	printf("%d\n", s);
+	i++;
+	printf("%d\n", z);
 	return (0);
 }
-
