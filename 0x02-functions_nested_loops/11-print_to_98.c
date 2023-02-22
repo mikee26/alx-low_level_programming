@@ -13,7 +13,7 @@ int print_to_98(int i)
 			printf("%d", i);
 			i++;
 			{
-				if (i < 98)
+				if (i <= 98)
 					printf(", ");
 			}
 		}
@@ -25,7 +25,7 @@ int print_to_98(int i)
 			printf("%d", i);
 			i--;
 			{
-				if (i > 98)
+				if (i >= 98)
 					printf(", ");
 			}
 		}
