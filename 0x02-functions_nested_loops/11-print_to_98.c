@@ -4,7 +4,7 @@
  * @i: the character
  * Return: the sequence of numbers
  */
-int print_to_98(int i)
+int print_to_98(i)
 {
 	for ( ; i < 99; i++)
 		return (i);
