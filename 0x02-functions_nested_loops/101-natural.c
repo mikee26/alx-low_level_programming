@@ -1,4 +1,4 @@
-#include <stidio.h>
+#include <stdio.h>
 /**
  * main - computes multple of 5 and 3 and print sum
  *
