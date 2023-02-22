@@ -14,7 +14,7 @@ int print_to_98(int i)
 			i++;
 			{
 				if (i < 98)
-					printf(", ")
+					printf(", ");
 			}
 		}
 	}
