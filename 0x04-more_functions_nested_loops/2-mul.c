@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "mai.h"
 /**
  * mul - multiplies numbers
  * @a: the first numer
