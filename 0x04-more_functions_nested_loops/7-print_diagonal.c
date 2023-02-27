@@ -1,7 +1,10 @@
 #include "main.h"
 
 /**
+ * print_diagonal - draws a diagonal line on the term
+=======
  * print_diagonal - draws a diagonal line on the terminal
+>>>>>>> refs/remotes/origin/master
  * @n: number of times the character \ should be printed
  */
 
@@ -12,6 +15,7 @@ void print_diagonal(int n)
 		_putchar('\n');
 	}
 	else
+        {
 	{
 		int i, j;
 
@@ -21,6 +25,12 @@ void print_diagonal(int n)
 			{
 				if (j == i)
 					_putchar('\\');
+                                else if (j < i)
+                                        _putchar(' ');
+                        }
+			_putchar('\n');
+                }
+        }
 				else if (j < i)
 					_putchar(' ');
 			}
